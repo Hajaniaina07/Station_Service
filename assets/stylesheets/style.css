@@ -11,3 +11,65 @@
 .nav .active {
     border-bottom: solid 2px #5048F4 !important;
 }
+
+.container-content {
+    margin-top: 100px;
+}
+
+.a-la-une {
+    border-radius: 200px;
+    border: solid #1862f8;
+    border-right-color: #60CB76FF;
+    border-bottom-color: #B91D85FF;
+    border-left-color: #FB2B01FF;
+}
+
+
+.presentation-link-text {
+    height: 50px;
+    background: rgba(204, 4, 15, 0.8);
+    color: white;
+    font-weight: bolder;
+}
+
+.current-presentation-link-text {
+    height: 50px;
+    background: #9a8d7a;
+    font-weight: bolder;
+    color: white;
+    font-size: large;
+}
+
+.current-presentation-link {
+    border-radius: 20px;
+    border: inset #CC040FCC 5px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.presentation-link {
+    border-radius: 20px;
+    border: solid #9A8D7ACC 3px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.presentation-link:hover {
+    border-radius: 20px;
+    border: inset #CC040FCC 5px;
+}
+
+.presentation-link:hover .presentation-link-text {
+    background: #9a8d7a;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.presentation a {
+    text-decoration: none;
+}
