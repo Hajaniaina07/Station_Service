@@ -51,7 +51,7 @@
 
 .presentation-link {
     border-radius: 20px;
-    border: solid #9A8D7ACC 3px;
+    border: solid #000000 3px;
     height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -72,4 +72,17 @@
 
 .presentation a {
     text-decoration: none;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 1000px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 1000px;
 }
